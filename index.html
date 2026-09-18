@@ -10,13 +10,16 @@
 
     <div class="page active" id="home">
         <div class="main-box">
-            <h1>22 years</h1>
-
+            <h1><b style="font-family: Default;">Happy<br>Anniversary</b></h1>
             <img src="images/main.jpg" alt="Main Photo" class="main-photo">
+            <p style="border-radius: 0px;">
+                <b style="font-family: Tahoma;">
+                    Established<br>
+                    <b>September 18th, 2004</b>
+                </b>
+            </p>
 
-            <p>September, 2004</p>
-
-            <button onclick="showPage('kids')">List of Kids</button>
+            <button onclick="showPage('kids')"><b>Children</b></button>
         </div>
     </div>
 
@@ -25,9 +28,12 @@
         <!-- Kid 1 -->
         <div class="kid-page active">
             <div class="main-box">
-                <h1>Trey</h1>
-
+                <h1><b style="font-size: 65px;">Trey</b></h1>
                 <img src="images/kid1.jpg" alt="Kid One" class="kid-photo">
+                <h2 style="font-family: Tahoma; font-size: 26px;">
+                    Nov 15, 2005<br>
+                    <span style="font-family: Tahoma, Verdana, sans-serif;">Arizona</span>
+                </h2>
 
                 <button onclick="nextKid()">Next</button>
             </div>
@@ -36,9 +42,12 @@
         <!-- Kid 2 -->
         <div class="kid-page">
             <div class="main-box">
-                <h1>Tristan</h1>
-
+                <h1><b style="font-size: 65px;">Tristan</b></h1>
                 <img src="images/kid2.jpg" alt="Kid Two" class="kid-photo">
+                <h2 style="font-family: Tahoma; font-size: 26px;">
+                    Jul 24th, 2009<br>
+                    <span style="font-family: Tahoma, Verdana, sans-serif;">Navada</span>
+                </h2>
 
                 <button onclick="nextKid()">Next</button>
             </div>
@@ -47,9 +56,12 @@
         <!-- Kid 3 -->
         <div class="kid-page">
             <div class="main-box">
-                <h1>Braylon</h1>
-
+                <h1><b style="font-size: 65px;">Braylon</b></h1>
                 <img src="images/kid3.jpg" alt="Kid Three" class="kid-photo">
+                <h2 style="font-family: Tahoma; font-size: 26px;">
+                    Dec 3rd, 2011<br>
+                    <span style="font-family: Tahoma, Verdana, sans-serif;">Georgia</span>
+                </h2>
 
                 <button onclick="nextKid()">Next</button>
             </div>
@@ -58,9 +70,12 @@
         <!-- Kid 4 -->
         <div class="kid-page">
             <div class="main-box">
-                <h1>Troy</h1>
-
+                <h1><b style="font-size: 65px;">Troy</b></h1>
                 <img src="images/kid4.jpg" alt="Kid Four" class="kid-photo">
+                <h2 style="font-family: Tahoma; font-size: 26px;">
+                    Mar 24th, 2020<br>
+                    <span style="font-family: Tahoma, Verdana, sans-serif;">Georgia</span>
+                </h2>
 
                 <button onclick="nextKid()">Next</button>
             </div>
@@ -69,9 +84,12 @@
         <!-- Kid 5 -->
         <div class="kid-page">
             <div class="main-box">
-                <h1>Bam</h1>
-
+                <h1><b style="font-size: 65px;">Bam</b></h1>
                 <img src="images/kid5.jpg" alt="Kid Five" class="kid-photo">
+                <h2 style="font-family: Tahoma; font-size: 26px;">
+                    Sep 6th, 2022<br>
+                    <span style="font-family: Tahoma, Verdana, sans-serif;">Georgia</span>
+                </h2>
 
                 <button onclick="nextKid()">Next</button>
             </div>
@@ -80,16 +98,26 @@
         <!-- Mystery Kid -->
         <div class="kid-page">
             <div class="main-box mystery">
-                <h1>?</h1>
+                <h1 style="font-family: Tahoma;">
+                    <b style="font-size: 42px;">~Pretty little baby~</b>
+                </h1>
 
-                <div class="question-box">?</div>
+                <img src="images/kid6.png" alt="Kid Six" class="kid-photo">
 
-                <p>i wonder what the next kid will be..</p>
+                <p>
+                    <b style="font-family: Tahoma; font-size: 40px;">
+                        Due May 7th, 2027
+                    </b>
+                </p>
             </div>
         </div>
 
     </div>
 
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+
     <script src="script.js"></script>
+
 </body>
 </html>
